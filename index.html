@@ -7,21 +7,38 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Sourav Ganguly</title>
-  <link rel="stylesheet" href="assets/css/monochrome.css">
+  <link rel="stylesheet" href="assets/css/color.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
   <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+  <style>
+    .Photo{
+      border-radius: 50% !important;
+      width: 350px !important;
+      height: 350px !important;
+      vertical-align: middle !important;
+
+    }
+    .portfolio-cards>a{
+      color:#333;
+    }
+
+    .portfolio-cards>a:hover{
+      text-decoration: none;
+    }
+
+    .portfolio-cards>a:visited{
+      text-decoration: none;
+    }
+    .portfolio-cards>a:active{
+      text-decoration: none;
+    }
+    .portfolio-cards>a:focus{
+      text-decoration: none;
+    }
+    
+  </style>
 </head>
 <body>
-
-<!--Switcher-->
-  <div class="style-switcher">
-    <span class="style-switcher__control"></span>
-    <div class="style-switcher__list">
-      <a class="style-switcher__link style-switcher__link--color"></a>
-      <a class="style-switcher__link style-switcher__link--mono"></a>
-    </div>
-  </div>
-<!--Switcher-->
 
 <!--Main menu-->
   <div class="menu">
@@ -70,7 +87,7 @@
     <div class="container">
       <div class="row personal-profile">
         <div class="col-md-4 personal-profile__avatar">
-          <img class="" src="assets/img/project.jpg" alt="avatar">
+          <img class="Photo" src="assets/img/project.jpg" alt="avatar">
         </div>
         <div class="col-md-8">
           <p class="personal-profile__name">Sourav Ganguly</p>
@@ -280,40 +297,29 @@
         <h2 id="portfolio_header" class="section__title">My projects</h2>
       </div>
     </div>
-    <div class="row portfolio-menu">
-      <div class="col-md-12">
-        <nav>
-          <ul>
-            <li><a href="" data-portfolio-target-tag="all">all</a></li>
-            <li><a href="" data-portfolio-target-tag="mobile apps">mobile apps</a></li>
-            <li><a href="" data-portfolio-target-tag="web-sites">web-sites</a></li>
-            <li><a href="" data-portfolio-target-tag="landing-pages">landing pages</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
     <div class="portfolio-cards">
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <!-- one portfolio -->
+      <a href="project/blackjack_game/black_jack.html" target="_blank">
+      <div class="row project-card" data-toggle="modal"  data-portfolio-tag="web-sites" >
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/Blackjack Game.jpg" alt="project-img">
         </div>
         <div class="col-md-6 col-lg-7 project-card__info">
-          <h3 class="project-card__title">Mobile and desktop app for London hostel store  </h3>
+          <h3 class="project-card__title">BlackJack and Rock, Paper, Scissor Game</h3>
           <p class="project-card__description">
-            Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye.
-            Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.
+            Two most popular childhood game BlackJack and Rock, 
+            Paper, Scissor implemented solmenly on HTML, JavaScript and CSS
           </p>
-          <p class="project-card__stack">Used stack:</p>
+          <p class="project-card__stack">Used:</p>
           <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
             <li>JavaScript</li>
-            <li>bower</li>
-            <li>grunt</li>
           </ul>
-          <a href="" class="project-card__link">www.superapp.com</a>
         </div>
       </div>
+    </a>
+      <!---->
       <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="mobile apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/img_project_2_mono.png" alt="project-img">
@@ -416,48 +422,6 @@
     </div>
   </div>
 <!--Contact-->
-
-<!-- Portfolio Modal -->
-  <div class="modal fade portfolio-modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
-        <p class="portfolio-modal__title">Mobile and desktop app for London hostel store</p>
-        <img class="portfolio-modal__img" src="assets/img/Blackjack Game.jpg" alt="modal_img">
-        <p class="portfolio-modal__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-          dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          conse.
-        </p>
-        <div class="portfolio-modal__link">
-          <a href="">www.superapp.com</a>
-        </div>
-        <div  class="portfolio-modal__stack">
-          <p class="portfolio-modal__stack-title">Using stack:</p>
-          <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
-            <li>JavaScript</li>
-            <li>bower</li>
-            <li>grunt</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Modal -->
-
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
