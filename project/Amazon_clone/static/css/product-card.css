@@ -1,0 +1,53 @@
+.main-product{
+    margin-right: 1.25rem;
+}
+
+.product-image{
+    width: 9rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 9px;
+    padding: 1rem;
+    margin-top: 0.25rem;
+}
+.product-name{
+    color: rgba(55, 65, 81, 1);
+    font-weight: 700;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.product-make{
+    color: rgba(4, 120, 87,1);
+    font-weight: 700;
+}
+
+.product-rating{
+    color:rgba(252, 211, 77, 1);
+    font-weight: 700;
+}
+
+.product-price{
+    font-weight: 700;
+    color: rgba(55, 65, 81, 1);;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.add-to-cart{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 9px;
+    background-color:  rgba(245, 158, 11,1);
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.add-to-cart:hover{
+    background-color: rgba(217, 119, 6,1);
+}

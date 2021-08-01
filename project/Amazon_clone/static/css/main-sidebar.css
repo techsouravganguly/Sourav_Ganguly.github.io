@@ -1,0 +1,31 @@
+.main-sidebar{
+    width: 30wh;
+    background-color: rgba(17, 24, 39,1);
+    border-top-width: 2px;
+    border-color: rgba(55, 65, 81,1);
+    padding: 1.5rem;
+}
+.sidebar-main-categories{
+    color: rgba(245, 158, 11, 1);
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: #374151;
+    border-radius: 0.75rem;
+}
+.sidebar-main-categories span{
+    width: 2rem;
+}
+ 
+.sidebar-main-subcategory{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+.sidebar-main-subcategory:hover{
+    background-color: #374151;
+    border-radius: 0.75rem;
+}

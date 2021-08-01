@@ -1,0 +1,81 @@
+.main-section{
+    flex: 1 1 0%;
+    padding: 1.5rem;
+    background-color: rgba(243, 244, 246,1); 
+    
+}
+
+.main-section-banner{
+    height: 9rem;
+    background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-section-banner-button{
+    background-color: white;
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    font-weight: 700;
+
+}
+
+.main-section-categories h1, .main-section-deals h1{
+    font-weight: 700;
+    color: rgba(55, 65, 81,1);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.main-section-categories h1 i, .main-section-deals h1 i{
+    color: rgba(245, 158, 11, 1);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.main-section-deals{
+    margin-top: 1.5rem;
+}
+.main-section-category{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-section-computer-icon, .main-section-gift-icon,
+ .main-section-phone-icon, .main-section-book-icon,
+ .main-section-camera-icon, .main-section-home-icon,
+ .main-section-music-icon, .main-section-light-icon{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.main-section-computer-icon i, .main-section-gift-icon i,
+ .main-section-phone-icon i, .main-section-book-icon i,
+ .main-section-camera-icon i, .main-section-home-icon i,
+ .main-section-music-icon i, .main-section-light-icon i{
+     font-size: 1.5rem;
+     color:  rgba(107, 114, 128, 1);
+ }
+
+ .main-section-products{
+     display: flex;
+ }
